@@ -61,3 +61,18 @@ if year % 4 == 0:
     print("Year is a leap year")
 else:
     print("Year is not a leap year")
+
+
+
+
+# Accept temperature in c and print a description:
+temp = int(input("Enter temperature in degree celsius: "))
+
+if temp < 0:
+    print("Freezing cold")
+elif temp <= 25:
+    print("Pleasant")
+elif temp < 50:
+    print("Warm")
+else:
+    print("Hot")
