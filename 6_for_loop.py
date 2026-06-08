@@ -33,6 +33,8 @@ for i in range(10):
         break
 
 
+print("\n")
+
 
 # Continue:
 for i in range(10):
@@ -41,9 +43,21 @@ for i in range(10):
     print(i)
 
 
+print("\n")
 
 
 # Pass:
 for i in range(10):
     pass
 print("Done")
+
+
+print("\n")
+
+
+# Else:
+for i in range(10):
+    if i == 40:
+        break
+else:
+    print("No break was encountered")
