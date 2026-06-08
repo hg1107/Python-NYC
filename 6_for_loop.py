@@ -61,3 +61,31 @@ for i in range(10):
         break
 else:
     print("No break was encountered")
+
+
+
+
+# Print "Hello World" 3 times:
+for i in range(4):
+    print("Hello World", end = " ")
+
+
+
+print("\n")
+
+
+
+# Print numbers from 1 to n:
+n = int(input("Enter a number: "))
+for i in range(1, n + 1):
+    print(i, end = " ")
+
+
+
+print("\n")
+
+
+# Reverse for loop, print n to 1:
+n = int(input("Enter a number: "))
+for i in range(n, 0, -1):
+    print(i, end = " ")
