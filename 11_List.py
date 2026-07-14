@@ -36,3 +36,11 @@ print("\n")
 for i in range(len(a)):
     print(f"{i}: {a[i]}")
 print("\n")
+
+
+
+# List Methods:
+# CRUD --> Create, Read, Update, Delete
+
+# To get the available methods for a certain datatype:
+print(dir(list))
