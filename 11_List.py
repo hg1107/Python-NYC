@@ -44,3 +44,29 @@ print("\n")
 
 # To get the available methods for a certain datatype:
 print(dir(list))
+
+
+# Append
+a = [10, 20, 30, 40]
+print("\n", a)
+
+a.append(60)
+a.append("Hello")
+print("\n", a)
+
+# Insert
+a.insert(1, "Inserted")
+print("\n", a)
+
+# Pop
+a.pop()
+print("\n", a)
+
+a.pop(1)
+print("\n", a)
+
+
+# Remove:
+a.remove(60)
+print("\n", a)
+
