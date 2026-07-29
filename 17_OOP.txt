@@ -1,0 +1,15 @@
+Make code reusable
+easier to work with large problems
+prevent from repeating code
+provide security
+
+
+classes --> Blueprint for creating objects
+Objects --> instances of a class
+
+
+# Four pillars of OOP
+Encapsulation: keeping info safe and only letting it be changed or looked at in specific ways [data ko safe rakhna]
+Polymorphism: one thing performing multiple tasks
+Inheritence: one class inheriting some features of other class
+Abstraction: Seeing only essential part and hiding complexity and rest of the process from user
